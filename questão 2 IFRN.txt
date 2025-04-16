@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+    int cavalos, ferraduras;
+
+    // Solicita ao usuário o número de cavalos
+    printf("Digite o número de cavalos comprados para o haras: ");
+    scanf("%d", &cavalos);
+
+    // Cada cavalo precisa de 4 ferraduras
+    ferraduras = cavalos * 4;
+
+    // Exibe o resultado
+    printf("Serao necessarias %d ferraduras para equipar todos os cavalos.\n", ferraduras);
+
+    return 0;
+}
+   Resultado = Digite o número de cavalos comprados para o haras: 20
+Serao necessarias 80 ferraduras para equipar todos os cavalos.
